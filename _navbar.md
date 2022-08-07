@@ -2,7 +2,7 @@
 
 - [二级页面测试](/secondpages/)
   
-  - [fronte-end](/secondpages/)
+  - [front-end](/secondpages/)
   
   - [word](/secondpages/words.md)
 
