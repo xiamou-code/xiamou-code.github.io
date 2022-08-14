@@ -1,10 +1,12 @@
 - [首页](/)
 
-- [二级页面测试](/secondpages/)
+- [前端](/secondpages/)
   
   - [front-end](/secondpages/)
   
   - [word](/secondpages/words.md)
+
+  - [JavaScript](/secondpages/js.md)
 
 - [PHP](/php/)
   
