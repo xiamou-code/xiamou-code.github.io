@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>我爱你，宝贝贝</title>
+		<style>
+			.container {
+				display: flex;
+				justify-content: center;
+				/* 水平居中 */
+				align-items: center;
+				/* 垂直居中 */
+				height: 100vh;
+				/* 使容器高度为视口高度 */
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="divTyping" class="container"></div>
+		<script>
+			var str = '不是在最美好的时光遇见你，</br>而是遇见你之后都是最美好的时光。';
+			var i = 0;
+
+			function typing() {
+				var divTyping = document.getElementById('divTyping');
+				if (i <= str.length) {
+					divTyping.innerHTML = str.slice(0, i++) + '_';
+					setTimeout('typing()', 200);
+				} else {
+					divTyping.innerHTML = str;
+				}
+			}
+			typing();
+		</script>
+	</body>
+</html>
